@@ -4,8 +4,12 @@
 
 package main
 
-import ("fmt")
+import (
+	"fmt"
+	"github.com/nipunchoprafree91/Mychannel"
+)
 
-func main(){
+func main() {
 	fmt.Println("Startign Execute of the main function")
+	Mychannelfunc()
 }
