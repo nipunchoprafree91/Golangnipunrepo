@@ -6,6 +6,7 @@ package main
 
 import (
 	"fmt"
+	"go get github.com/nipunchoprafree91/Golangcode"
 )
 
 func main() {
