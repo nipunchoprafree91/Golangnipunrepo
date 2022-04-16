@@ -6,10 +6,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/nipunchoprafree91/Golangcode"
 )
 
 func main() {
-	fmt.Println("Startign Execute of the main function")
-	Mychannelfunc()
+	fmt.Println("Starting Execution of the main function")
 }
