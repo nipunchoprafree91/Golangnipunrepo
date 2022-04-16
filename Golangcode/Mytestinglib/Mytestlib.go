@@ -7,4 +7,7 @@ import (
 
 func Mytestinglibfunc() {
 	fmt.Println("Starting Execute of the Mytesting lib function")
+	fmt.Println("Executing My channel Code")
+	Mychannelfunc()
+
 }
