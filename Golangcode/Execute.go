@@ -6,7 +6,6 @@ package main
 
 import (
 	"fmt"
-	"github.com/nipunchoprafree91/Mychannel"
 )
 
 func main() {
