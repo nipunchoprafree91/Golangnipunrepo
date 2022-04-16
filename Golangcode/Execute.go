@@ -10,6 +10,7 @@ import (
 )
 
 func main() {
-	fmt.Println("Starting Execution of the main function")
+	fmt.Println("Starting Execution of the Main function")
+	fmt.Println("Calling Mytestinglib Code From Testing library")
 	Mytestinglib.Mytestinglibfunc()
 }
