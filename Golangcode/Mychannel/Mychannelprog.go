@@ -2,7 +2,7 @@ package Mychannel
 
 import (
 	"fmt"
-	"go get github.com/nipunchoprafree91/Golangcode"
+	"github.com/nipunchoprafree91/Golangcode"
 )
 
 func Mychannelfunc() {
