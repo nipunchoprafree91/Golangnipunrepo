@@ -11,5 +11,5 @@ import (
 
 func main() {
 	fmt.Println("Starting Execution of the main function")
-	Mytestinglibfunc()
+	Mytestinglib.Mytestinglibfunc()
 }
