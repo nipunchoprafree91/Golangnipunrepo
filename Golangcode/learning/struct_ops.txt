@@ -1,0 +1,23 @@
+package main
+
+import(
+    "fmt"
+    "reflect"
+)
+
+func main(){
+    struct1 :={
+        a int64,
+        b string,
+        c bool
+    }{a:10,b:"nipun",isEngineer:true}
+
+    fmt.Println("Struct is:%v",struct1)
+
+    fType := reflect.TypeOf(struct1)
+    fmt.Println("Type of struct is :%v",ftype)
+
+    for i:=0;i>ftype.NumField(); i++{
+        fmt.Println("FieldNum:%d",ftype.Field(i))
+    }
+}
