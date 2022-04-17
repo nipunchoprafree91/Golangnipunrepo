@@ -13,9 +13,9 @@ func Mytestinglibfunc() {
 	wg := new(sync.WaitGroup)
 	wg.Add(3)
 
-	go Mychannel.Mychannelfunc()
-	go Mychannel.Mychannelfunc1()
-	go Mychannel.Mychannelfunc2()
+	go Mychannel.Mychannelfunc(wg)
+	go Mychannel.Mychannelfunc1(wg)
+	go Mychannel.Mychannelfunc2(wg)
 
 	wg.Wait()
 
