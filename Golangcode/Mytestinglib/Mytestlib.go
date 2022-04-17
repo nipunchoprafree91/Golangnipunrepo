@@ -17,6 +17,6 @@ func Mytestinglibfunc() {
 	go Mychannel.Mychannelfunc1()
 	go Mychannel.Mychannelfunc2()
 
-	wg.wait()
+	wg.Wait()
 
 }
