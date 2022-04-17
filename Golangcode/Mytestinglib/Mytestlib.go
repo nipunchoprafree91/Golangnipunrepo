@@ -9,5 +9,7 @@ func Mytestinglibfunc() {
 	fmt.Println("Starting Execute of the Mytesting lib function")
 	fmt.Println("Calling My channel Code From Testing library")
 	go Mychannel.Mychannelfunc()
+	go Mychannel.Mychannelfunc1()
+	go Mychannel.Mychannelfunc2()
 
 }
