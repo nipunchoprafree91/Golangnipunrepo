@@ -1,8 +1,8 @@
-module string_manipulate.go
+module github.com/nipunsgolangrepo/nipunsgolangrepo
 
-go 1.14
+go 1.16
 
 require (
-	github.com/kbinani/screenshot v0.0.0-20210720154843-7d3a670d8329
-	github.com/tebeka/selenium v0.9.9
+	github.com/gorilla/mux v1.8.0
+	github.com/logrusorgru/aurora v2.0.3+incompatible
 )
