@@ -1,10 +1,10 @@
-package main
+package Datatypes
 
 import (
 	"fmt"
 )
 
-func main() {
+func Getuniquesubstring() map[string]int {
 	for _, c := range "go is awesome" {
 		fmt.Printf("%c", c)
 	}
@@ -39,4 +39,5 @@ func main() {
 
 	}
 	fmt.Printf("Map %v\n", maps1)
+	return maps1
 }

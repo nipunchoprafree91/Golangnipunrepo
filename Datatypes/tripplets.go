@@ -1,11 +1,11 @@
-package main
+package Datatypes
 
 import (
 	"fmt"
 	"runtime"
 )
 
-func main() {
+func GetTriplets() [][]int {
 	fmt.Println("Hi Lets solve triplet problems....")
 	fmt.Println("Memory usage Before the program:")
 	PrintMemUsage()
@@ -20,6 +20,8 @@ func main() {
 
 	// match2n := matchingtripleto2n(array1)
 	// fmt.Printf("Matching array with complexity O(n2) is: %v\n", match2n)
+
+	return out
 
 }
 
@@ -81,7 +83,7 @@ func comparearrays(givenarr [][]int) (uniquearr [][]int) {
 	for i := 0; i < lengiven-1; i++ {
 		fmt.Printf("Array at index %v is:%v\n", i, compareelem(givenarr[i], givenarr[i+1]))
 	}
-	uniquearr =append(uniquearr, )
+	uniquearr = append(uniquearr)
 	return uniquearr
 
 }

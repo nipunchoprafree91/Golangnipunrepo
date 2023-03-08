@@ -1,18 +1,20 @@
-package main
+package Datatypes
 
 import "fmt"
 
-func main() {
+func Mymatchingsubarray() []int {
 	fmt.Println("Hi Lets solve some array problems....")
 
 	array1 := []int{5, 1, 4, 7, 6, 3, 9}
 	sumexpected := 18
-	match := matchingsubarray(array1, sumexpected)
+	match := Matchingsubarray(array1, sumexpected)
 	fmt.Printf("matching array with a sum of %v is: %v\n", sumexpected, match)
+
+	return match
 
 }
 
-func matchingsubarray(arr []int, sumexpected int) (matcharr []int) {
+func Matchingsubarray(arr []int, sumexpected int) (matcharr []int) {
 	sum := 0
 	startindex := 0
 	endindex := len(arr)
